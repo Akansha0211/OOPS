@@ -7,11 +7,14 @@ public class RepairShop {
         repairCar(wagonR);
         repairCar(audi);
     }
-    public static void repairCar(WagonR car){
-        System.out.println("car is repaired");
-    }
-//    for audi
-    public static void repairCar(Audi car){
+//    public static void repairCar(WagonR car){
+//        System.out.println("car is repaired");
+//    }
+////    for audi
+//    public static void repairCar(Audi car){
+//        System.out.println("car is repaired");
+//    }
+    public static void repairCar(Car car){
         System.out.println("car is repaired");
     }
 }
