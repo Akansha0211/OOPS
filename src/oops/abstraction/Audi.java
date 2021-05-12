@@ -1,10 +1,14 @@
 package oops.abstraction;
 
 public class Audi extends Car{
-    public void accelerate(){
-        System.out.println("Audi is accelerating");
+
+    @Override
+    public void acclerate() {
+
     }
-    public void braking(){
-        System.out.println("Audi is braking");
+
+    @Override
+    public void braking() {
+
     }
 }
