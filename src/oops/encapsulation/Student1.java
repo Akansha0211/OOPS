@@ -13,8 +13,12 @@ public class Student1 {
         return name;
     }
     public void setAge(int age){
+        if (age>24){
+            System.out.println("You are to old to  be a student...");
+        }else{
+            this.age = age;
+        }
 
-        this.age = age;
     }
     public void setName(String name){
         this.name = name;

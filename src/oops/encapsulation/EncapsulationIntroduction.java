@@ -14,5 +14,8 @@ public class EncapsulationIntroduction {
         st.setName("Harshit"); // this makes a diff as you can now apply restrictions to it.
         st.setAge(23);
 
+        System.out.println(st.getName());
+        System.out.println(st.getAge());
+
     }
 }
