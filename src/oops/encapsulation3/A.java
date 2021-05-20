@@ -1,5 +1,6 @@
 package oops.encapsulation3;
 
+
 public class A {
 
     private int data = 40;
