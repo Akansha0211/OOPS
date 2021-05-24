@@ -12,14 +12,12 @@ public class Simple {
 //        System.out.println(obj.getData());
 
         //Can you access private method outside Class?? ->YES using Reflection API
-//        1. use reflect package 
+//        1. use reflect package
 //        2. Use Exception class inside driver code
 //        3. getDeclaredMethod("method")
       A obj = new A();
       Method m = A.class.getDeclaredMethod("msg");
       m.setAccessible(true); // necessary step
       m.invoke(obj);
-
-
     }
 }
