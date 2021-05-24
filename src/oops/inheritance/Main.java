@@ -31,17 +31,22 @@ public class Main {
 //        Person p = s1;
 //        Teacher t = (Teacher)p;
 
-        Teacher t1 = new Teacher();
-        //To tell whether the object is an instance of particular class or not...
-        boolean yo = t1 instanceof Teacher;
-        System.out.println(yo);
-        Singer s1 = new Singer();
-        System.out.println(s1 instanceof Singer);
-        System.out.println(t1 instanceof Person);
+//        Teacher t1 = new Teacher();
+//
+//        //To tell whether the object is an instance of particular class or not...
+//        boolean yo = t1 instanceof Teacher;
+//        System.out.println(yo);
+//        Singer s1 = new Singer();
+//        System.out.println(s1 instanceof Singer);
+//        System.out.println(t1 instanceof Person);
+//
+//        Person p = t1;
+//        Teacher t = (Teacher)p;
+//        System.out.println(p instanceof Singer);
+//        System.out.println(p instanceof Teacher);
 
-        Person p = t1;
-        Teacher t = (Teacher)p;
-        System.out.println(p instanceof Singer);
-        System.out.println(p instanceof Teacher);
+        Teacher t1 = new Teacher();
+        t1.name="DBC Sir";
+        t1.eat();
     }
 }

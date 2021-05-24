@@ -6,6 +6,7 @@ public class Person {
         System.out.println("Person "+name+" is walking");
     }
     public void eat(){
+
         System.out.println("Person "+name+ " is eating");
     }
     public static void laughing(){
