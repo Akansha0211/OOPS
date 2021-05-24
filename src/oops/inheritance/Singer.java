@@ -1,6 +1,10 @@
 package oops.inheritance;
 
 public class Singer extends Person {
+    //create constructor using matching super
+    public Singer(String name) {
+        super(name);
+    }
     public void sing(){
         System.out.println("Singer is singing");
     }

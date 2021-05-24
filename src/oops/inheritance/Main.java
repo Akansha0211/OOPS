@@ -45,8 +45,11 @@ public class Main {
 //        System.out.println(p instanceof Singer);
 //        System.out.println(p instanceof Teacher);
 
-        Teacher t1 = new Teacher();
-        t1.name="DBC Sir";
+        //super kewyword inside method
+//        Teacher t1 = new Teacher();
+//        t1.name="DBC Sir";
+//        t1.eat();
+        Teacher t1 = new Teacher("DBC Sir");
         t1.eat();
     }
 }
