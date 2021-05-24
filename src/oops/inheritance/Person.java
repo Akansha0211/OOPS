@@ -8,4 +8,7 @@ public class Person {
     public void eat(){
         System.out.println("Person "+name+ " is eating");
     }
+    public static void laughing(){
+        System.out.println("Person is laughing");
+    }
 }
