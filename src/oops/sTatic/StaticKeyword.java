@@ -19,4 +19,7 @@ public class StaticKeyword {
 
         System.out.println("inside main");
     }
+    static {
+        System.out.println("in block 3");
+    }
 }
